@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+{% block content %}
+    <br><h1>{{ header }}</h1><br><br>
+    {% for outputLine in outputList %}
+      <p style="font-family:bookman; font-size:150%;"> {{ outputLine }} <br> </p>
+    {% endfor %}
+    <br>
+{% endblock content %}
